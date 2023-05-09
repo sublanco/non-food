@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Non-Food</title>
+  <!--link a bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!--link a la carpeta estilos-->
+  <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+
+<body>
+  <!--etiqueta semantica header-->
+  <header>
+    <!--contenedor flex de bootstrap-->
+    <div class="d-flex justify-content-center p-2 bg-red">
+      <!--div del logo-->
+      <div class="p-3"><img src="./imagenes/electro.png" alt="logo" width="140px"></div>
+      <!--div del titulo-->
+      <div class="p-3 pt-5">
+        <h1 class="title">Non-Food</h1>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Non-Food</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Implantación</a>
+            <a class="nav-link" href="#sectores">Sectores</a>
+            <a class="nav-link" href="#personal">Personal</a>
+            <a class="nav-link" href="#familia-de-productos">Familia de productos</a>
+            <!--
+                  <a class="nav-link" href="#">Tienda</a>
+                  <a class="nav-link" href="#">Ferreteria-Automotor-Tiempo-libre</a>
+                  <a class="nav-link" href="#">Electro</a>-->
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--etiqueta semantica main-->
+  <main class="pt-5 p-3 bg-lino">
+    <article class="mt-5 d-flex bg-dark text-light">
+      <div class="w-50">
+        <img src="./imagenes/frente113.png" alt="Implantación" class="img-fluid">
+      </div>
+      <div class="w-50 p-3">
+        <h2><strong>Implantación</strong></h2>
+        <p class="p-1">Distribuir en las góndolas los productos en base a un criterio</p>
+        <p class="p-2">Recorrido de clientes</p>
+        <p class="p-2">Posición de acuerdo al productos</p>
+      </div>
+    </article>
+    <article id="sectores" class="mt-5">
+      <h2 class="text-center"><strong>Sectores</strong></h2>
+      <div class="d-flex justify-content-center flex-wrap p-2">
+        <div class="card m-2 me-5 bg-dark text-light" style="width: 20rem;">
+          <img src="./imagenes/bazar.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Menaje</h5>
+            <p class="card-text">Cocina, Decoraciónecoración,Organización del Hogar , Baño</p>
+          </div>
+        </div>
+        <div class="card m-2 me-5 bg-dark text-light" style="width: 20rem;">
+          <img src="./imagenes/hogar.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hogar</h5>
+            <p class="card-text"> Esponjas, trapos de piso,guantes,escobas</p>
+          </div>
+        </div>
+        <div class="card m-2 me-5 bg-dark text-light" style="width: 20rem;">
+          <img src="./imagenes/ferre-Auto.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ferretería-Automotro</h5>
+            <p class="card-text"> Lámparas, pegamentos, herramientas,accesorios y limpieza del auto</p>
+          </div>
+        </div>
+        <div class="card m-2 me-5 bg-dark text-light" style="width: 20rem;">
+          <img src="./imagenes/juguetería.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jugueteria</h5>
+            <p class="card-text">Didacticos,juguetes nene,juguetes nena</p>
+          </div>
+        </div>
+        <div class="card m-2 me-5 bg-dark text-light" style="width: 20rem;">
+          <img src="./imagenes/libreria.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Libreria</h5>
+            <p class="card-text"> Libros,(novelas e infantiles),art.escolare</p>
+          </div>
+        </div>
+        <div class="card m-2 me-5 bg-dark text-light" style="width: 20rem;">
+          <img src="./imagenes/tienda.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tienda</h5>
+            <p class="card-text">Blanco(ropa de cama y toallas),Indumentaria</p>
+          </div>
+        </div>
+        <div class="card m-2 me-5 bg-dark text-light" style="width: 20rem;">
+          <img src="./imagenes/sm.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Electrodoméstico</h5>
+            <p class="card-text"> Tv,Electrónica, heladeras, lavarropas</p>
+          </div>
+        </div>
+        <div class="card m-2 me-5 bg-dark text-light" style="width: 20rem;">
+          <img src="./imagenes/tiempolibre.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tiempo-Libre</h5>
+            <p class="card-text">Camping,muebles de jardín</p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article id="familia-de-productos"
+      class="w-50 mt-5 p-3 mx-auto d-flex flex-column justify-content-center align-items-center bg-dark text-light">
+      <h2 class="text-center"><strong>Familias de Productos</strong></h2>
+      <ul class="p-5">
+        <li class='fs-5'>Menaje</li>
+        <li class='fs-5'>Hogar</li>
+        <li class='fs-5'>Ferretería-Automotor</li>
+        <li class='fs-5'>Juguetería</li>
+        <li class='fs-5'>Librería</li>
+        <li class='fs-5'>Tienda</li>
+        <li class='fs-5'>Electrodomésticos</li>
+        <li class='fs-5'>Tiempo-Libre</li>
+
+
+      </ul>
+    </article>
+    <article id="personal" class="mt-5">
+      <h2 class="text-center"><strong>Personal</strong></h2>
+      <div class="d-flex justify-content-center mt-3">
+        <div>
+          <img src="./imagenes/sm113.png" alt="concurso" class="img-fluid">
+        </div>
+        <div class="p-5 bg-dark text-light">
+          <h3><strong>Premios para los sectores</strong></h3>
+          <ul>
+            <li class='fs-5'>Mejor sector $50000</li>
+            <li class='fs-5'>Mejores implantaciones $30000</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </main>
+
+</body>
+
+</html>
